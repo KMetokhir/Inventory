@@ -13,6 +13,6 @@ namespace Inventory
 
         void AddItem(IItem item, uint count);
         IEnumerable<ISlotInfo> GetSlotsInfo();
-        bool TryGetItem(uint id, uint count, out IItem item);
+        bool TryGetItems(uint id, uint count, out IItem item);
     }
 }

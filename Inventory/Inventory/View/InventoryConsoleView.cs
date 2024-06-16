@@ -7,13 +7,12 @@ namespace Inventory
     internal class InventoryConsoleView : IInventoryView
     {
         private List<ISlotView> _slotsView = new List<ISlotView>();
+        public string _ownerName { get; private set; }
 
         public InventoryConsoleView(string ownerName)
         {
-            OwnerName = ownerName;
+            _ownerName = ownerName;
         }
-
-        public string OwnerName { get; private set; }
 
         public void LoadSlots(List<ISlotView> slotsView)
         {
@@ -43,7 +42,7 @@ namespace Inventory
 
         public void DisplayInventory()
         {
-            Console.WriteLine($"{OwnerName} инвентарь:");
+            Console.WriteLine($"{_ownerName} инвентарь:");
 
             if (_slotsView.Any() == false)
             {

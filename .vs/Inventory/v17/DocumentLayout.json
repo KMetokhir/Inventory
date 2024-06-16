@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kirill\\Desktop\\Inventory\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|c:\\users\\kirill\\desktop\\inventory\\inventory\\inventory\\factory\\consoleinventoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|solutionrelative:inventory\\inventory\\factory\\consoleinventoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|c:\\users\\kirill\\desktop\\inventory\\inventory\\inventory\\view\\inventoryconsoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|solutionrelative:inventory\\inventory\\view\\inventoryconsoleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|c:\\users\\kirill\\desktop\\inventory\\inventory\\inventory\\view\\interface\\iinventoryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|solutionrelative:inventory\\inventory\\view\\interface\\iinventoryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|c:\\users\\kirill\\desktop\\inventory\\inventory\\inventory\\model\\inventorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|solutionrelative:inventory\\inventory\\model\\inventorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|c:\\users\\kirill\\desktop\\inventory\\inventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|solutionrelative:inventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|c:\\users\\kirill\\desktop\\inventory\\inventory\\inventory\\presenter\\interface\\iinventorypresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|solutionrelative:inventory\\inventory\\presenter\\interface\\iinventorypresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|c:\\users\\kirill\\desktop\\inventory\\inventory\\inventory\\presenter\\inventoryconsolepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4EF8350-BD14-4BFF-9EFC-23B82627C161}|Inventory\\Inventory.csproj|solutionrelative:inventory\\inventory\\presenter\\inventoryconsolepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IInventoryPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\Presenter\\Interface\\IInventoryPresenter.cs",
+              "RelativeDocumentMoniker": "Inventory\\Inventory\\Presenter\\Interface\\IInventoryPresenter.cs",
+              "ToolTip": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\Presenter\\Interface\\IInventoryPresenter.cs",
+              "RelativeToolTip": "Inventory\\Inventory\\Presenter\\Interface\\IInventoryPresenter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:54:37.698Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConsoleInventoryFactory.cs",
+              "DocumentMoniker": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\Factory\\ConsoleInventoryFactory.cs",
+              "RelativeDocumentMoniker": "Inventory\\Inventory\\Factory\\ConsoleInventoryFactory.cs",
+              "ToolTip": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\Factory\\ConsoleInventoryFactory.cs",
+              "RelativeToolTip": "Inventory\\Inventory\\Factory\\ConsoleInventoryFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:52:30.796Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryConsolePresenter.cs",
+              "DocumentMoniker": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\Presenter\\InventoryConsolePresenter.cs",
+              "RelativeDocumentMoniker": "Inventory\\Inventory\\Presenter\\InventoryConsolePresenter.cs",
+              "ToolTip": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\Presenter\\InventoryConsolePresenter.cs",
+              "RelativeToolTip": "Inventory\\Inventory\\Presenter\\InventoryConsolePresenter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:55:00.86Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryConsoleView.cs",
+              "DocumentMoniker": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\View\\InventoryConsoleView.cs",
+              "RelativeDocumentMoniker": "Inventory\\Inventory\\View\\InventoryConsoleView.cs",
+              "ToolTip": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\View\\InventoryConsoleView.cs",
+              "RelativeToolTip": "Inventory\\Inventory\\View\\InventoryConsoleView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:57:32.406Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IInventoryView.cs",
+              "DocumentMoniker": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\View\\Interface\\IInventoryView.cs",
+              "RelativeDocumentMoniker": "Inventory\\Inventory\\View\\Interface\\IInventoryView.cs",
+              "ToolTip": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\View\\Interface\\IInventoryView.cs",
+              "RelativeToolTip": "Inventory\\Inventory\\View\\Interface\\IInventoryView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:57:17.401Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Program.cs",
               "RelativeDocumentMoniker": "Inventory\\Program.cs",
               "ToolTip": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Program.cs",
               "RelativeToolTip": "Inventory\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T23:51:09.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\Model\\InventoryModel.cs",
+              "RelativeDocumentMoniker": "Inventory\\Inventory\\Model\\InventoryModel.cs",
+              "ToolTip": "C:\\Users\\kirill\\Desktop\\Inventory\\Inventory\\Inventory\\Model\\InventoryModel.cs",
+              "RelativeToolTip": "Inventory\\Inventory\\Model\\InventoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:56:07.146Z",
               "EditorCaption": ""
             }
           ]

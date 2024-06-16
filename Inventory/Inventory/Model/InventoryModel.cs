@@ -44,7 +44,7 @@ namespace Inventory
             return _slots;
         }
 
-        public bool TryGetItem(uint id, uint count, out IItem item)
+        public bool TryGetItems(uint id, uint count, out IItem item)
         {
             bool isSuccess = false;
             item = null;

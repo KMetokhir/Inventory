@@ -10,8 +10,10 @@ namespace Inventory
             Console.InputEncoding = Encoding.Unicode;
             Console.OutputEncoding = Encoding.Unicode;
 
+            ConsoleInventoryFactory consoleInventoryFactory = new ConsoleInventoryFactory();
+
             string inventoryOwner = "Стол";
-            InventoryPresenter table = CreateInventory(inventoryOwner);
+            IInventoryPresenter table = consoleInventoryFactory.CreateInventory(inventoryOwner);
 
             Item book = new Item("Книга");
             Item coin = new Item("Монета");
@@ -22,7 +24,7 @@ namespace Inventory
             table.AddItem(fetish, 1);
 
             inventoryOwner = "Игрок";
-            InventoryPresenter player = CreateInventory(inventoryOwner);
+            IInventoryPresenter player = consoleInventoryFactory.CreateInventory(inventoryOwner);
 
             Console.Clear();
 
@@ -32,15 +34,7 @@ namespace Inventory
             player.ShowItems();
         }
 
-        private static InventoryPresenter CreateInventory(string ownerName)
-        {
-            IInventoryModel model = new InventoryModel();
-            IInventoryView view = new InventoryConsoleView(ownerName);
-
-            return new InventoryPresenter(model, view);
-        }
-
-        private static void TakeAllItems(InventoryPresenter inventoryFrom, InventoryPresenter inventoryTo)
+        private static void TakeAllItems(IInventoryPresenter inventoryFrom, IInventoryPresenter inventoryTo)
         {
             const string RepeateMessage = "Ошибка, попробуй еще раз";
 
@@ -55,7 +49,7 @@ namespace Inventory
 
                     if (TryGetUserUintInput(message, out uint count))
                     {
-                        if (inventoryFrom.TryGetItem(id, count, out IItem item))
+                        if (inventoryFrom.TryGetItems(id, count, out IItem item))
                         {
                             inventoryTo.AddItem(item, count);
                         }
@@ -75,7 +69,7 @@ namespace Inventory
             }
         }
 
-        private static bool TryTakeItemId(InventoryPresenter inventory, out uint id)
+        private static bool TryTakeItemId(IInventoryPresenter inventory, out uint id)
         {
             bool isSuccess = false;
 
@@ -85,7 +79,7 @@ namespace Inventory
             {
                 uint itemCount = 0;
 
-                if (inventory.TryGetItem(id, itemCount, out IItem item))
+                if (inventory.TryGetItems(id, itemCount, out IItem item))
                 {
                     isSuccess = true;
                 }

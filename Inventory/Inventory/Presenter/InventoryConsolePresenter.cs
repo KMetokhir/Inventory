@@ -2,14 +2,14 @@
 
 namespace Inventory
 {
-    internal class InventoryPresenter
+    internal class InventoryConsolePresenter : IInventoryPresenter
     {
         private readonly IInventoryModel _model;
         private readonly IInventoryView _view;
 
         public bool IsEmpty => _model.IsEmpty;
 
-        public InventoryPresenter(IInventoryModel model, IInventoryView view)
+        public InventoryConsolePresenter(IInventoryModel model, IInventoryView view)
         {
             _model = model;
             _view = view;
@@ -31,9 +31,9 @@ namespace Inventory
             _model.AddItem(item, count);
         }
 
-        public bool TryGetItem(uint id, uint Count, out IItem item)
+        public bool TryGetItems(uint id, uint Count, out IItem item)
         {
-            return _model.TryGetItem(id, Count, out item);
+            return _model.TryGetItems(id, Count, out item);
         }
 
         private void OnSlotRemoved(uint id)

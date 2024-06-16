@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Inventory\Factory\ConsoleInventoryFactory.cs" />
     <Compile Include="Inventory\Model\Interface\IInventoryModel.cs" />
     <Compile Include="Inventory\Model\Interface\IItem.cs" />
     <Compile Include="Inventory\Model\Interface\ISlot.cs" />
@@ -50,7 +51,8 @@
     <Compile Include="Inventory\Model\Interface\ISlotInfo.cs" />
     <Compile Include="Inventory\Model\Item.cs" />
     <Compile Include="Inventory\Model\Slot.cs" />
-    <Compile Include="Inventory\Presenter\InventoryPresenter.cs" />
+    <Compile Include="Inventory\Presenter\Interface\IInventoryPresenter.cs" />
+    <Compile Include="Inventory\Presenter\InventoryConsolePresenter.cs" />
     <Compile Include="Inventory\View\Interface\ISlotView.cs" />
     <Compile Include="Inventory\View\SlotConsoleView.cs" />
     <Compile Include="Program.cs" />
